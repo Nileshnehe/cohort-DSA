@@ -11,3 +11,7 @@ const highestSalary = employees.reduce((accumulator, currentemp) => {
 }, 0)
 
 console.log(highestSalary)
+
+// Step-by-Step Execution Trace (ये बैकग्राउंड में कैसे चला
+//)Loop 1: accumulator is 0. currentemp.salary is 45000. Math.max(0, 45000) returns 45000.
+// Loop 2: accumulator is 45000. currentemp.salary is 120000. Math.max(45000, 120000) returns 120000.
