@@ -16,3 +16,5 @@ const totalbudget = updatedEmployees.reduce((accumulator, currentEmp) => {
 
 console.log(totalbudget)
 // Output: 180000
+
+// Hindi Explanation of the Code Loop:Step 1: लूप शुरू होने पर accumulator की वैल्यू 0 होगी (क्योंकि हमने आख़िर में , 0 पास किया है)। currentEmp हमारा पहला ऑब्जेक्ट { name: "neel", salary: 120000 } होगा। दोनों जुड़कर 120000 बनेंगे और अगली बार के लिए सेव हो जाएंगे।Step 2: अब accumulator की वैल्यू 120000 है। currentEmp हमारा दूसरा ऑब्जेक्ट { name: "dnyanu", salary: 60000 } है। दोनों जुड़कर 180000 बन जाएंगे।Result: एरे खत्म हो गया, इसलिए फाइनल आंसर 180000 स्क्रीन पर आ जाएगा।
